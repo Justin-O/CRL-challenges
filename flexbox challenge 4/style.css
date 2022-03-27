@@ -1,0 +1,89 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.3rem;
+}
+
+section {
+    padding: 6rem 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+h1 {
+    font-size: 3rem;
+    margin: 0;
+}
+
+h2 {
+    font-size: 2.25rem;
+}
+
+h1, h2 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    margin-top: 0;
+}
+
+.container {
+    width: 80%;
+    max-width: 1128px;
+    margin: 0 auto;
+}
+
+.hero__container {
+    width: 80%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    gap: 2em;
+}
+
+.col {
+    /* these are now flex items */
+    width: 50%;
+    
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    min-height: 660px;
+    background-color: #f3eed9;
+    color: #824936;
+    text-align: center;
+}
+
+.hero h4 {
+    font-size: 0.8em;
+    font-weight: 200;
+    letter-spacing: .5rem;
+    text-transform: uppercase;
+    color: black;
+    margin: 0;
+}
+
+.one h2 {
+    color: #824936;
+    text-align: center;
+}
+
+.two {
+    background: #222c2a;
+    color: #FFF;
+}
+
+.three {
+    background: #824936;
+    color: #FFF;
+}

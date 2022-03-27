@@ -1,0 +1,59 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+  
+body {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+header {
+    background: #23424A;
+    color: white;
+}
+
+.container {
+    width: 80%;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 150px 0;
+}
+
+.content {
+    width: 50%;
+    padding-bottom: 50px;
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 3rem;
+    line-height: 3.5rem;
+}
+
+p {
+    font-size: 1.313rem;    
+    line-height: 1.6;
+    color: #DEE3E4;
+}
+
+button {
+    font-weight: 700;
+    font-size: 1.313rem;
+    line-height: 150%;    
+    text-transform: uppercase;
+
+    color: #072A2D;
+
+    background: #38CFD9;
+    border-radius: 100px;
+    padding: .75em 2.25em;
+    border: none;
+
+    cursor: pointer;
+}
+
+button:hover,
+button:focus {
+    opacity: .75;
+}
+
